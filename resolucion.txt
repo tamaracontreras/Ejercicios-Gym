@@ -1,0 +1,40 @@
+
+
+si a o b es igual a 21 devolver 21
+
+
+si a y b son mayor a 21 retornar 0
+
+si a o b es igual que 21 devolver 21
+
+si a o b es mayor a 21 restornar el menor
+_______________________________________________-
+agregar la propiedad question enn cada objeto del array
+donde diga null: 
+question:Hi, could you please provide your(propiedad faltante)
+retornar solo los desarrolladores con propiedad faltantes
+
+objetc.value
+.some
+
+Dado el siguiente array de entrada:
+let list1 = [
+  { firstName: null, lastName: 'I.', country: 'Argentina', continent: 'Americas', age: 35, language: 'Java' },
+  { firstName: 'Lukas', lastName: 'X.', country: 'Croatia', continent: 'Europe', age: 35, language: null },
+  { firstName: 'Madison', lastName: 'U.', country: 'United States', continent: 'Americas', age: 32, language: 'Ruby' }
+];
+Escribe una función que:
+
+Agregue la propiedad question a cada objeto del array de entrada donde el desarrollador no ha proporcionado los detalles relevantes (aquellas propiedades en las que el valor es null ). El valor de la propiedad question debe ser el siguiente string:
+
+Hi, could you please provide your <property name>.
+
+La función debe retornar sólo los desarrolladores con detalles faltantes:
+[
+  { firstName: null, lastName: 'I.', country: 'Argentina', continent: 'Americas', age: 35, language: 'Java',
+  question: 'Hi, could you please provide your firstName.' },
+  { firstName: 'Lukas', lastName: 'X.', country: 'Croatia', continent: 'Europe', age: 35, language: null,
+  question: 'Hi, could you please provide your language.' }
+]
+
+
